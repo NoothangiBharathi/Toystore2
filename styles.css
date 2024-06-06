@@ -1,0 +1,501 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+   height: 100vh;
+   width: 100%;
+   background-image: url("../Images/backgroundimage.jpg");
+   background-size: cover;
+   background-position: center;
+}
+body{
+    background-position: center;
+   background-size: cover;
+      
+}
+ .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    height: 30px;
+    place-items: center; 
+ }
+ .container .icons ion-icon{
+   margin-right: 10px;
+ }
+ .navbar {
+   display: flex; 
+   margin-top: 30px;
+
+  }
+  .navbar ul li{
+   display: inline-flex;
+   justify-content: space-between;
+   padding: 5px;
+   margin-left: 20px;
+   font-size: 20px;
+   
+  }
+  .cart {
+   display: flex;
+   margin-left: 800px;
+   }
+   .cart p{
+      margin-right: 10px;
+   }
+   .cart-icon {
+      display: flex;
+      
+   }
+  .main-text{
+   margin-top: 150px;
+   text-align: center;
+   height: 300px;
+   width: 500px;
+   background-color: rgb(189, 189, 207);
+   margin-left: 500px;
+   border-radius: 20px;
+   position: absolute;
+  }
+  .main-text h1{
+   margin-top: 20px;
+
+  }
+  .main-text p{
+   padding: 20px;
+  }
+  .main-text button{
+      margin-top: 30px;
+      height: 50px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: transparent;
+      font-size: 20px;
+      font-weight: bold;
+     }
+     .toys{
+      margin-top: 50px;
+      
+     }
+     .img1 {
+      display: flex;
+      width: 600px;
+      border-radius: 30px;
+      margin-left: 50px;
+      
+      
+      
+     }
+     .img-text1{
+      margin-top: 150px;
+      font-size: 20px;
+      font-weight: 900px;
+      margin-left: 50px;
+     }
+
+
+.img1 img{
+   width: 300px;
+   height: 300px;
+   border-radius: 40px;
+
+}
+.img2 img{
+   width: 330px;
+   height: 300px;
+   border-radius: 40px;
+}
+.img2 {
+   display: flex;
+   width: 600px;
+   border-radius: 30px;
+   margin-left: 800px;
+   margin-top: -300px;
+   
+  }
+.img-text2{
+ margin-top: 150px;
+ font-size: 20px;
+ font-weight: 900px;
+ margin-left: 50px;
+}
+
+.img-text1 button{
+   border-radius: 30px;
+   height: 30px;
+   width: 100px;
+   transition: all 0.5s ease;
+
+}
+.img-text1 button:hover{
+
+   background-color: lightpink;
+
+}
+.img-text2 button{
+   border-radius: 30px;
+   height: 30px;
+   width: 100px;
+   transition: all 0.5s ease;
+
+}
+.img-text2 button:hover{
+   background-color: lightpink;
+}
+.animals{
+   display: flex;
+   margin-top: 40px;
+ }
+ .animals button{
+   margin-left: 1030px;
+  }
+  button{
+   border-radius: 30px;
+   height: 30px;
+    border-color: white;
+  }
+  ion-icon{
+   font-size: 30px;
+  }
+
+  .pic{
+   display: flex;
+   margin-top: 30px;
+   justify-content: space-between;
+   
+  }
+  .pic1 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic1 h2{
+   text-align: center;
+  }
+  .pic1 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .pic1 button:hover{
+   background-color: aqua;
+  }
+  .box1{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+   .pic2 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic2 h2{
+   text-align: center;
+  }
+  .pic2 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+
+  }
+  .pic2 button:hover{
+   background-color: aqua;
+  }
+  .box2{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  .pic3 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic3 h2{
+   text-align: center;
+  }
+  .pic3 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+
+  }
+  .pic3 button:hover{
+   background-color: aqua;
+  }
+  
+  .box3{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  .pic4 img{
+   height: 200px;
+   width:230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .pic4 h2{
+   text-align: center;
+  }
+  .pic4 button{
+   margin-left: 70px;
+   height: 30px;
+   width: 150px;
+   margin-top: 20px;
+   transition: all 0.5s ease;
+
+  }
+  .pic4 button:hover{
+   background-color: aqua;
+  }
+ .box4{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+
+  .woodentoys{
+   display: flex;
+   margin-top: 40px;
+ }
+ .woodentoys button{
+   margin-left: 1030px;
+  }
+  .woodentoys button{
+   border-radius: 30px;
+   height: 30px;
+    border-color: white;
+  }
+  .woodentoys ion-icon{
+   font-size: 30px;
+  }
+
+.woodentoys5{
+   display: flex;
+   margin-top: 30px;
+   justify-content: space-between;
+   
+  }
+  .woodenToys1 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .woodentoys1 h2{
+   text-align: center;
+  }
+  .woodentoys1 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys1 button:hover{
+   background-color: aqua;
+  }
+  .box5{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+  
+
+  .woodentoys1 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+  .woodentoys1 h2{
+   text-align: center;
+  }
+  .woodentoys1 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys1 button:hover{
+   background-color: aqua;
+  }
+  .box5{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+
+  .woodentoys2 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+   
+  .woodentoys2 h2{
+   text-align: center;
+  }
+  .woodentoys2 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys2 button:hover{
+   background-color: aqua;
+  }
+  .box6{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+
+   .woodentoys3 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+   
+  .woodentoys3 h2{
+   text-align: center;
+  }
+  .woodentoys3 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .woodentoys3 button:hover{
+   background-color: aqua;
+  }
+  .box7{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+
+
+   .Woodentoys4 img{
+   height: 200px;
+   width: 230px;
+   float: left;
+   margin: 25px;
+   margin-bottom: 20px;
+  }
+   
+  .Woodentoys4 h2{
+   text-align: center;
+  }
+  .Woodentoys4 button{
+   margin-left: 80px;
+   height: 30px;
+   width: 150px;
+   margin-top: 10px;
+   transition: all 0.5s ease;
+  }
+  .Woodentoys4 button:hover{
+   background-color: aqua;
+  }
+  .box8{
+   height:330px;
+   width: 280px;
+   background-color: beige;
+   border-radius: 30px;
+  }
+
+  .fixedimage img{
+   height: 1000px;
+   width: 1500px;
+  }
+
+
+  .fixed h3,h1{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .fixed p{
+   text-align: center;
+   margin-top: 20px;
+  }
+  .fixed .forwardicon{
+        margin-left: 650px;
+        margin-top: 30px; 
+        height: 40px;
+        width: 45px;
+        border-radius: 20px;
+        background-color: greenyellow;
+        text-align: center;    
+  }
+  .fixed .forwardicon ion-icon{
+   margin-top: 5px;
+  }
+
+ 
+  
+  .webflow h3{
+   text-align: center;
+   margin-top: 80px;
+  }
+  .webflow h1{
+   margin-top: 5px;
+  }
+ .fixedimage{
+   background-image: url("../Images/bigteddybear.jpg");
+   background-position: center;
+   background-size: cover;
+  }
+.fixed2 {
+   display: flex;
+   margin-top: 70px;
+}
+
+  .kidimage p{
+   font-size: 20px;
+   margin-top: 30px;
+   margin-left: 20px;
+  }
+  .divkidimage2 img{
+   height: 500px;
+   width: 450px;
+   margin-left: 400px;
+  }
+   
+
+
+
+
+
+
